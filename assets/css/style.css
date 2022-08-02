@@ -63,6 +63,89 @@
 
 @media (min-width: 576px) {
     .form-inline .form-control {
-    width: 100%;
+        width: 100%;
+    }
+}
+
+/* ------------------ Hero section ------------------ */
+
+.hero-container {
+    background: url('../images/hero-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content > h1 {
+    font-size: 4.5em;
+    text-shadow: 1px 1px 15px black;
+}
+
+/* ------------------ Buttons ------------------ */
+
+.btn {
+    text-transform: capitalize;
+}
+
+.btn-primary-custom,
+.btn-outline-custom {
+    border: 1px solid;
+}
+
+.btn-primary-custom {
+    background-color: rgb(180, 0, 150);
+    border-color: white;
+    color: white;
+}
+
+.btn-primary-custom:hover,
+.btn-primary-custom:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.btn-outline-custom {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+.btn-outline-custom:hover,
+.btn-outline-custom:focus {
+    border-color: rgb(180, 0, 150);
+    background-color: rgb(180, 0, 150);
+}
+
+/* ------------------ Media Queries ------------------ */
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 3em;
+    }
+
+    .hero-content .lead {
+        font-size: 1em;
+    }
+
+    .hero-container .btn-primary-custom, 
+    .hero-container .btn-outline-custom {
+        width: 100%;
     }
 }
