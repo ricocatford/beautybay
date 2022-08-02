@@ -12,11 +12,57 @@
     border: none;
 }
 
-.nav-item {
-    letter-spacing: 2px;
+.navbar-light .navbar-nav .nav-link {
+    letter-spacing: 1px;
+    height: 100%;
+    padding: 0;
+    margin: 0.5rem;
+    color: rgba(0,0,0,.85);
+    transition: all .2s ease-in-out;
 }
 
-.navbar .navbar-search-icon {
-    color: #7b7b7b;
-    font-size: 2rem;
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: rgb(180, 0, 150);
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+    border-bottom: 2px solid black;
+}
+    
+.navbar-light .navbar-right-wrapper {
+    align-items: center;
+}
+
+.navbar-search-form {
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.navbar-icon {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto 0.25rem;
+    padding: 0.5rem;
+    min-width: 32px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+}
+
+.btn-nav {
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+}
+
+.navbar-icon:hover,
+.navbar-icon:focus {
+    background-color:rgb(180, 0, 150);
+}
+
+@media (min-width: 576px) {
+    .form-inline .form-control {
+    width: 100%;
+    }
 }
