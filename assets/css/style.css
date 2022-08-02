@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    max-width: 1200px;
+}
+
 /* ------------------ Navbar ------------------ */
 
 .navbar-toggler {
@@ -98,20 +102,20 @@
     text-shadow: 1px 1px 15px black;
 }
 
-/* ------------------ Bestselling section ------------------ */
+/* ------------------ Featured products section ------------------ */
 
-.bestselling-container {
-    margin: 2rem auto;
+.featured-container {
+    background-color: rgb(235, 235, 235);
 }
 
-.bestselling-header {
+.featured-container h2 {
     text-align: center;
+    margin: 2rem 0 1rem;
 }
 
-.carousel-inner {
-    background-position: center;
-    background-size: cover;
-    height: 360px;
+.featured-image-wrapper > img {
+    max-width: 100%;
+    margin-bottom: 1rem;
 }
 
 /* ------------------ Buttons ------------------ */
@@ -131,9 +135,9 @@
     color: white;
 }
 
-.btn-primary-custom:hover,
-.btn-primary-custom:focus {
-    background-color: transparent;
+.btn-secondary-custom {
+    background-color:rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
     color: white;
 }
 
@@ -143,10 +147,19 @@
     color: white;
 }
 
+.btn-primary-custom:hover,
+.btn-primary-custom:focus {
+    background-color: transparent;
+    color: white;
+}
+
 .btn-outline-custom:hover,
-.btn-outline-custom:focus {
+.btn-outline-custom:focus,
+.btn-secondary-custom:hover,
+.btn-secondary-custom:focus {
     border-color: rgb(255, 122, 122);
     background-color: rgb(255, 122, 122);
+    color: rgb(0, 0, 0);
 }
 
 /* ------------------ Media Queries ------------------ */

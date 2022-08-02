@@ -51,48 +51,58 @@
         <div class="row">
             <div class="col-12">
                 <section class="hero-content text-center">
-                    <h1>Feeling lucky today?</h1>
-                    <p class="lead">Take your chance to win dozens of products every month! Fill up our survey for a chance to win.</p>
-                    <button class="btn btn-primary-custom btn-lg mb-1" type="button">
-                        Take Survey
-                    </button>
-                    <button class="btn btn-outline-custom btn-lg mb-1" type="button">
-                        Learn More
-                    </button>
+                    <header>
+                        <h1>Feeling lucky today?</h1>
+                    </header>
+                    <main>
+                        <p class="lead">Take your chance to win dozens of products every month! Fill up our survey for a chance to win.</p>
+                        <button class="btn btn-primary-custom btn-lg mb-1" type="button" aria-label="Take survey">
+                            Take Survey
+                        </button>
+                        <button class="btn btn-outline-custom btn-lg mb-1" type="button" aria-label="Learn more">
+                            Learn More
+                        </button>
+                    </main>
                 </section>
             </div>
         </div>
     </div>
-    <!-- Bestselling products -->
-    <div class="container bestselling-container">
+    <!-- Featured products -->
+    <div class="container featured-container">
         <div class="row">
             <div class="col-12">
-                <section class="bestselling-content">
-                    <h2 class="bestselling-header">Bestselling Products</h2>
-                    <div id="slides" class="carousel slide" data-ride="carousel">
-                        <ul class="carousel-indicators">
-                            <li data-target="#slides" data-slide-to="0" class="active"></li>
-                            <li data-target="#slides" data-slide-to="1"></li>
-                            <li data-target="#slides" data-slide-to="2"></li>
-                        </ul>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/images/slide1.jpg" alt="First slide">
-                                <div class="carousel-caption">
-                                    <h1>Belle Beauty collection</h1>
-                                    <p>All you need to look fantastic day and night, wherever you are.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                
-                            </div>
-                            <div class="carousel-item">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <h2>Featured Products</h2>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <div class="featured-image-wrapper">
+                        <img src="./assets/images/featureditem1.jpg">
+                    </div>
+                    <p>NUXE Sun SPF50 High Protection Melting Lotion | An irresistible invitation to savour that Summer feeling.</p>
+                    <button type="button" class="btn btn-secondary-custom">Shop now</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <div class="featured-image-wrapper">
+                        <img src="./assets/images/featureditem2.jpg">
+                    </div>
+                    <p>Bare your inner beauty | Give your skin a natural radiance boost with bareMinerals Complexion Rescue.</p>
+                    <button type="button" class="btn btn-secondary-custom">Shop now</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div>
+                    <div class="featured-image-wrapper">
+                        <img src="./assets/images/featureditem3.jpg">
+                    </div>
+                    <p>Flawlessly matte and luminous | The new Dolce&Gabanna Velvetskin Natural Matte Foundation.</p>
+                    <button type="button" class="btn btn-secondary-custom">Shop now</button>
+                </div>
+            </div>
+            
         </div>
     </div>
     <!-- Brands -->
