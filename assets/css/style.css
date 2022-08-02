@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------ Navbar ------------------ */
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-item {
+    letter-spacing: 2px;
+}
+
+.navbar .navbar-search-icon {
+    color: #7b7b7b;
+    font-size: 2rem;
+}
