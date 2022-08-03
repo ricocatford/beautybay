@@ -8,6 +8,7 @@
 
 .container {
     max-width: 1200px;
+    padding: 1rem;
 }
 
 /* ------------------ Navbar ------------------ */
@@ -147,6 +148,25 @@
     min-width: 144px;
     width: 144px;
 }
+
+
+/* ------------------ Weekly Winner Video section ------------------ */
+
+.weekly-winner-container {
+    background-color: rgb(235, 235, 235);
+}
+
+.weekly-winner-container h2 {
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.weekly-winner-container video {
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 
 /* ------------------ Buttons ------------------ */
