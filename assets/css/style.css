@@ -55,12 +55,6 @@
     transition: all .2s ease-in-out;
 }
 
-.btn-nav {
-    cursor: pointer;
-    border: 0px;
-    background: transparent;
-}
-
 .navbar-icon:hover,
 .navbar-icon:focus {
     background-color: rgb(255, 122, 122);
@@ -150,6 +144,64 @@
 }
 
 
+/* ------------------ Catalog section ------------------ */
+
+.catalog-container {
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.product-wrapper img {
+    width: 180px;
+    height: 180px;
+    object-position: center;
+}
+
+.product-price-tag {
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    font-size: 1.25em;
+    padding: 0 0.5rem;
+    margin: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.product-description {
+    align-self: flex-start;
+}
+
+.product-buttons-wrapper {
+    width: 100%;
+    display: inherit;
+    justify-content: space-between;
+}
+
+.fav-icon {
+    cursor: pointer;
+    font-size: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+.fav-icon:hover,
+.fav-icon:focus {
+    color: rgb(177, 0, 0);
+    transform: scale(1.2);
+}
+
+
 /* ------------------ Weekly Winner Video section ------------------ */
 
 .weekly-winner-container {
@@ -167,12 +219,17 @@
 }
 
 
-
-
 /* ------------------ Buttons ------------------ */
 
 .btn {
     text-transform: capitalize;
+}
+
+.btn-nav,
+.btn-fav {
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
 }
 
 .btn-primary-custom,
@@ -211,6 +268,10 @@
     border-color: rgb(255, 122, 122);
     background-color: rgb(255, 122, 122);
     color: rgb(0, 0, 0);
+}
+
+.btn-shop-now {
+    text-transform: uppercase;
 }
 
 
