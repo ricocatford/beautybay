@@ -65,11 +65,6 @@
     background-color: rgb(255, 122, 122);
 }
 
-@media (min-width: 576px) {
-    .form-inline .form-control {
-        width: 100%;
-    }
-}
 
 /* ------------------ Hero section ------------------ */
 
@@ -85,6 +80,7 @@
     justify-content: center;
     height: 100vh;
     position: relative;
+    text-shadow: 1px 1px 15px black;
 }
 
 .hero-container::before {
@@ -97,10 +93,10 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.hero-content > h1 {
+.hero-header {
     font-size: 4.5em;
-    text-shadow: 1px 1px 15px black;
 }
+
 
 /* ------------------ Featured products section ------------------ */
 
@@ -117,6 +113,41 @@
     max-width: 100%;
     margin-bottom: 1rem;
 }
+
+.featured-content-wrapper {
+    margin-bottom: 2rem;
+}
+
+
+/* ------------------ Brands section ------------------ */
+
+.brands-container {
+    padding: 2rem;
+}
+
+.brands-list {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.brands-item {
+    margin: 1rem;
+    transition: all .25s ease-in-out;
+}
+
+.brands-item:hover {
+    transform: scale(1.1);
+}
+
+
+.brands-item img {
+    min-width: 144px;
+    width: 144px;
+}
+
 
 /* ------------------ Buttons ------------------ */
 
@@ -162,10 +193,17 @@
     color: rgb(0, 0, 0);
 }
 
+
 /* ------------------ Media Queries ------------------ */
 
+@media (max-width: 768px) {
+    .form-inline .form-control {
+        width: 100%;
+    }
+}
+
 @media (max-width: 480px) {
-    .hero-content h1 {
+    .hero-header {
         font-size: 3em;
     }
 
