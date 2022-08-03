@@ -210,13 +210,13 @@
 
 .info-item-container {
     display: flex;
+    margin: 0.5rem 0;
 }
 
 .info-icon-wrapper {
     font-size: 1.5em;
     display: inherit;
-    align-self: center;
-    margin-right: 1rem;
+    width: 40px;
 }
 
 .info-header,
