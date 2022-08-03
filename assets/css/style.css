@@ -97,11 +97,12 @@
 
 .featured-container {
     background-color: rgb(235, 235, 235);
+    margin-top: 2.5rem;
 }
 
 .featured-container h2 {
     text-align: center;
-    margin: 2rem 0 1rem;
+    margin: 1rem 0 1.5rem;
 }
 
 .featured-image-wrapper > img {
@@ -146,19 +147,14 @@
 
 /* ------------------ Catalog section ------------------ */
 
-.catalog-container {
-    margin: 2rem auto;
-    text-align: left;
-}
-
 .product-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 0 0.5rem;
     padding: 1rem;
     position: relative;
+    margin: 1.5rem 0;
 }
 
 .product-wrapper img {
@@ -168,15 +164,14 @@
 }
 
 .product-price-tag {
+    font-size: 1.25em;
     color: white;
     background-color: black;
-    font-weight: 700;
-    font-size: 1.25em;
     padding: 0 0.5rem;
     margin: 1rem;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
 }
 
 .product-description {
@@ -187,6 +182,7 @@
     width: 100%;
     display: inherit;
     justify-content: space-between;
+    margin-top: 0.5rem;
 }
 
 .fav-icon {
@@ -197,8 +193,7 @@
 
 .fav-icon:hover,
 .fav-icon:focus {
-    color: rgb(177, 0, 0);
-    transform: scale(1.2);
+    color: rgb(156, 34, 34);
 }
 
 
@@ -274,8 +269,15 @@
     text-transform: uppercase;
 }
 
+/* ------------------ Block divider ------------------ */
 
-/* ------------------ Media Queries ------------------ */
+.block-divider {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+
+/* ------------------ Media queries ------------------ */
 
 @media (max-width: 768px) {
     .form-inline .form-control {
