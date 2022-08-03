@@ -8,7 +8,6 @@
 
 .container {
     max-width: 1200px;
-    padding: 1rem;
 }
 
 /* ------------------ Navbar ------------------ */
@@ -196,8 +195,46 @@
     color: rgb(156, 34, 34);
 }
 
+/* ------------------ Weekly winner section ------------------ */
 
-/* ------------------ Weekly Winner Video section ------------------ */
+.info-container {
+    background-color: rgba(255, 122, 122, 0.4);
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.info-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-item-container {
+    display: flex;
+}
+
+.info-icon-wrapper {
+    font-size: 1.5em;
+    display: inherit;
+    align-self: center;
+    margin-right: 1rem;
+}
+
+.info-header,
+.info-description {
+    margin: 0;
+}
+
+.info-header {
+    font-size: 0.85em;
+    font-weight: 700;
+}
+
+.info-description {
+    font-size: 0.7em;
+}
+
+
+/* ------------------ Weekly winner section ------------------ */
 
 .weekly-winner-container {
     background-color: rgb(235, 235, 235);
