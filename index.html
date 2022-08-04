@@ -37,8 +37,8 @@
                 </li>
             </ul>
             <div class="d-flex navbar-right-wrapper">
-                <form class="form-inline navbar-search-form">
-                    <input class="form-control" type="search" placeholder="Search for products" name="search" aria-label="Search">
+                <form class="form-inline navbar-search-form" id="search">
+                    <input class="form-control" type="search" placeholder="Search for products" name="search_query" aria-label="Search">
                     <button class="btn-nav" type="submit" aria-label="Search"><i class="fa fa-magnifying-glass navbar-icon"></i></button>
                 </form>
                 <button class="btn-nav" aria-label="Shopping bag"><i class="fa fa-bag-shopping navbar-icon"></i></button>
@@ -100,6 +100,11 @@
         <section id="brands" class="container brands-container">
             <div class="row">
                 <div class="col-12">
+                    <h2 class="brands-header">Our Brands selection</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
                     <ul class="list-unstyled brands-list">
                         <li class="brands-item">
                             <a href="#" role="button" aria-label="Chanel brand">
@@ -143,6 +148,11 @@
         <hr class="block-divider">
         <!-- Product Catalog -->
         <section id="catalog" class="container catalog-container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="products-header">Our Products</h2>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-6 col-md-4 col-lg-3 product-card">
                     <div>
@@ -309,8 +319,8 @@
     <footer class="page-footer footer-container">
         <div class="row footer-wrapper">
             <div class="col-12">
-                <form class="footer-form">
-                    <input type="email" placeholder="Enter your email address" name="email_subscription" class="footer-input">
+                <form class="footer-form" id="subscription">
+                    <input type="email" placeholder="Enter your email address" name="email_address" class="footer-input" aria-label="Email address">
                     <button type="submit" class="btn btn-secondary-custom btn-sm">Sign up</button>
                 </form>
             </div>

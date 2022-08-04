@@ -38,7 +38,7 @@
             </ul>
             <div class="d-flex navbar-right-wrapper">
                 <form class="form-inline navbar-search-form">
-                    <input class="form-control" type="search" placeholder="Search for products" name="search" aria-label="Search">
+                    <input class="form-control" type="search" placeholder="Search for products" name="search_query" aria-label="Search">
                     <button class="btn-nav" type="submit" aria-label="Search"><i class="fa fa-magnifying-glass navbar-icon"></i></button>
                 </form>
                 <button class="btn-nav" aria-label="Shopping bag"><i class="fa fa-bag-shopping navbar-icon"></i></button>
@@ -48,14 +48,94 @@
     </nav>
     <main>
         <section class="container survey-container">
-            <h1 class="survey-header">Fill up our survey for a chance to win</h1>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="survey-header">Fill up our survey for a chance to win</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="lead survey-lead">
+                        Feeling lucky today? By filling up our survey you have a chance to win products <mark>worth £50</mark> every month for an entire year.
+                        Don't miss out this incredibly chance!
+                    </p>
+                    <p class="small survey-small">
+                        Closes on 11/8/2022 at 23.59 (GMT+1).
+                    </p>
+                </div>
+            </div>
+            <div class="survey-wrapper">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Survey form -->
+                        <form class="survey-form" id="survey">
+                            <label for="age-band" class="survey-label">1. Select your age band:</label>
+                            <select id="age-band" name="age">
+                                <option value="18-24">18-24</option>
+                                <option value="25-34">25-34</option>
+                                <option value="35-44">35-44</option>
+                                <option value="45-54">45-54</option>
+                                <option value="55-64">55-64</option>
+                                <option value="65-or-over">65 or over</option>
+                            </select>
+                            <fieldset>
+                                <legend class="survey-label">2. Which of the following skin care products do you use at least
+                                    once a week? (Check all that apply)
+                                </legend>
+                                <div class="col-12">
+                                    <input id="antiperspirant" value="antiperspirant" name="skin_care_product" type="checkbox">
+                                    <label for="antiperspirant">Antiperspirant</label>
+                                </div>
+                                <div class="col-12">
+                                    <input id="sunscreen" value="sunscreen" name="skin_care_product" type="checkbox">
+                                    <label for="sunscreen">Sunscreen</label>
+                                </div>
+                                <div class="col-12">
+                                    <input id="body-lotion-or-moisturizer" value="body-lotion-or-moisturizer" name="skin_care_product" type="checkbox">
+                                    <label for="body-lotion-or-moisturizer">Body lotion or moisturizer</label>
+                                </div>
+                                <div class="col-12">
+                                    <input id="body-powder" value="body-powder" name="skin_care_product" type="checkbox">
+                                    <label for="body-powder">Body powder</label>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend class="survey-label">3. In a typical day, about how many times do you wash your face?
+                                </legend>
+                                <div class="col-12">
+                                    <input id="none" value="none" name="number_of_face_wash" type="radio">
+                                    <label for="none">None</label>
+                                </div>
+                                <div class="col-12">
+                                    <input id="1-2" value="1-2" name="number_of_face_wash" type="radio">
+                                    <label for="1-2">1 or 2</label>
+                                </div>
+                                <div class="col-12">
+                                    <input id="3-4" value="3-4" name="number_of_face_wash" type="radio">
+                                    <label for="3-4">3 or 4</label>
+                                </div>
+                                <div class="col-12">
+                                    <input id="4-or-more" value="number_of_face_wash" name="4-or-more" type="radio">
+                                    <label for="4-or-more">4 or more</label>
+                                </div>
+                            </fieldset>
+                            <label for="monthly-budget" class="survey-label">4. In a typical month, about how much do you spend, in Sterling Pounds (£), on beauty products?</label>
+                            <input id="monthly-budget" name="monthly_budget" type="text">
+                            <div class="col-12">
+                                <input class="btn btn-secondary-custom" type="reset" value="Reset form">
+                                <button class="btn btn-secondary-custom" type="submit" value="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="page-footer footer-container">
         <div class="row footer-wrapper">
             <div class="col-12">
-                <form class="footer-form">
-                    <input type="email" placeholder="Enter your email address" name="email_subscription" class="footer-input">
+                <form class="footer-form" id="subscription">
+                    <input type="email" placeholder="Enter your email address" name="email_address" class="footer-input" aria-label="Email address">
                     <button type="submit" class="btn btn-secondary-custom btn-sm">Sign up</button>
                 </form>
             </div>
