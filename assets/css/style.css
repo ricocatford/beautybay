@@ -254,12 +254,25 @@
 
 .footer-container {
     background-color:rgb(196, 196, 196);
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .footer-wrapper {
     max-width: 1180px;
     margin: 2rem auto 0;
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+    margin: 1rem auto 0;
+    width: fit-content;
+}
+
+.footer-input {
+    padding: 0.15rem;
+    margin-right: 0.5rem;
+    min-width: 40vw;
 }
 
 .footer-header {
@@ -269,20 +282,28 @@
 }
 
 .footer-link {
-    color: rgb(0, 0, 0);
     font-size: 0.9em;
-    text-decoration: none;
     line-height: 200%;
 }
 
-.footer-link:hover,
-.footer-link:focus {
-    color:rgb(60, 60, 60);
+.footer-social-icon-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.footer-social-icon {
+    font-size: 1.5em;
+    margin: 0 1rem;
 }
 
 .copyright-text {
     text-align: center;
 }
+
+
+/* ------------------ Survey section ------------------ */
+
+
 
 
 /* ------------------ Buttons ------------------ */
