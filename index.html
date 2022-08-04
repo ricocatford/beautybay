@@ -27,18 +27,18 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Brands</a>
+                    <a class="nav-link" href="#brands">Brands</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#catalog">Catalog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/">New</a>
+                    <a class="nav-link" href="#">New</a>
                 </li>
             </ul>
             <div class="d-flex navbar-right-wrapper">
                 <form class="form-inline navbar-search-form">
-                    <input class="form-control" type="search" placeholder="Search for products" aria-label="Search">
+                    <input class="form-control" type="search" placeholder="Search for products" name="search" aria-label="Search">
                     <button class="btn-nav" type="submit" aria-label="Search"><i class="fa fa-magnifying-glass navbar-icon"></i></button>
                 </form>
                 <button class="btn-nav" aria-label="Shopping bag"><i class="fa fa-bag-shopping navbar-icon"></i></button>
@@ -97,10 +97,10 @@
             </div>
         </section>
         <!-- Brands -->
-        <section class="container brands-container">
+        <section id="brands" class="container brands-container">
             <div class="row">
                 <div class="col-12">
-                    <ul class="brands-list">
+                    <ul class="list-unstyled brands-list">
                         <li class="brands-item">
                             <a href="#" role="button" aria-label="Chanel brand">
                                 <img src="./assets/images/brands/chanel-logo.jpg" alt="Chanel brand logo">
@@ -306,8 +306,87 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer>
+    <footer class="page-footer footer-container">
+        <div class="row footer-wrapper">
+            <div class="col-12">
+                <form>
 
+                </form>
+            </div>
+        </div>
+        <div class="row footer-wrapper">
+            <div class="col-12 col-md-4">
+                <ul class="list-unstyled">
+                    <li>
+                        <h3 class="footer-header">
+                            Help & Information
+                        </h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="footer-link">Help centre</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Delivery information</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Returns policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Contact us</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul class="list-unstyled">
+                    <li>
+                        <h3 class="footer-header">
+                            About
+                        </h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="footer-link">Corporate information</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Privacy & cookies</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Terms & conditions</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Careers</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul class="list-unstyled">
+                    <li>
+                        <h3 class="footer-header">
+                            More from Beautybay
+                        </h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="footer-link">Refer a friend</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Unlimited delivery</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Gift vouchers</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row footer-wrapper">
+            <div class="col-12">
+                <p class="small copyright-text"><a href="index.html" class="link">beautybay.com</a> © 2021-2022. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
