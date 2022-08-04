@@ -282,7 +282,7 @@
 .footer-input {
     padding: 0.15rem;
     margin-right: 0.5rem;
-    min-width: 40vw;
+    width: 40vw;
 }
 
 .footer-header {
@@ -299,6 +299,7 @@
 .footer-social-icon-wrapper {
     width: fit-content;
     margin: 0 auto;
+    min-width: 40vw
 }
 
 .footer-social-icon {
@@ -464,7 +465,7 @@
     .hero-container .btn-primary-custom, 
     .hero-container .btn-outline-custom {
         width: 100%;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .fav-icon {
