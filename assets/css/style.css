@@ -317,7 +317,7 @@
     max-width: 800px;
     min-height: 50vh;
     margin-top: 2rem;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .survey-header {
@@ -359,6 +359,7 @@
 
 .survey-form select {
     width: 50%;
+    margin-bottom: 1rem;
 }
 
 .survey-form input[type=text] {
