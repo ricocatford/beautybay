@@ -464,6 +464,7 @@
     .hero-container .btn-primary-custom, 
     .hero-container .btn-outline-custom {
         width: 100%;
+        margin-bottom: 1rem;
     }
 
     .fav-icon {
