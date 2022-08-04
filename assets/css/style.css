@@ -317,7 +317,7 @@
     max-width: 800px;
     min-height: 50vh;
     margin-top: 2rem;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .survey-header {
@@ -363,10 +363,11 @@
 
 .survey-form input[type=text] {
     width: 50%;
+    margin-bottom: 1rem;
 }
 
 .survey-form button {
-    margin: 1rem 1rem;
+    margin: 0.5rem 1rem;
 }
 
 
