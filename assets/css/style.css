@@ -63,7 +63,7 @@
 /* ------------------ Hero section ------------------ */
 
 .hero-container {
-    background: url('../images/hero-background.jpg') no-repeat center center fixed;
+    background: url('../images/hero-background.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -96,6 +96,7 @@
 
 .featured-container {
     background-color: rgb(235, 235, 235);
+    border-radius: 1rem;
     margin-top: 2.5rem;
 }
 
@@ -115,15 +116,6 @@
 
 
 /* ------------------ Brands section ------------------ */
-
-.brands-container {
-    padding: 2rem;
-}
-
-.brands-header {
-    text-align: center;
-    margin-bottom: 1rem;
-}
 
 .brands-list {
     margin: 0;
@@ -149,11 +141,6 @@
 
 
 /* ------------------ Catalog section ------------------ */
-
-.products-header {
-    margin-top: 1.5rem;
-    text-align: center;
-}
 
 .product-card {
     display: flex;
@@ -248,16 +235,13 @@
 
 .weekly-winner-container {
     background-color: rgb(235, 235, 235);
-}
-
-.weekly-winner-container h2 {
-    text-align: center;
-    margin: 2rem 0 1rem;
+    border-radius: 1rem;
 }
 
 .weekly-winner-container video {
     max-width: 100%;
     height: auto;
+    margin-bottom: 2rem;
 }
 
 /* ------------------ Footer ------------------ */
@@ -299,7 +283,6 @@
 .footer-social-icon-wrapper {
     width: fit-content;
     margin: 0 auto;
-    min-width: 40vw
 }
 
 .footer-social-icon {
@@ -428,7 +411,7 @@
     text-transform: uppercase;
 }
 
-/* ------------------ Block divider & Link ------------------ */
+/* ------------------ Block divider, Sections generics & Link ------------------ */
 
 .link {
     color: rgb(0, 0, 0);
@@ -442,6 +425,18 @@
 .block-divider {
     width: 70vw;
     margin: 0 auto;
+}
+
+.section-title-wrapper {
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    margin: 3rem 0;
+}
+
+.section-title-header {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 1rem 0;
 }
 
 
