@@ -315,25 +315,28 @@
 }
 
 
-/* ------------------ Survey section ------------------ */
+/* ------------------ Survey & Contact section ------------------ */
 
-.survey-container {
+.survey-container,
+.contact-container {
     max-width: 800px;
     min-height: 50vh;
     margin-top: 2rem;
     text-align: center;
 }
 
-.survey-header {
+.survey-header,
+.contact-header {
     font-size: 1.5em;
 }
 
-.survey-lead {
+.survey-lead,
+.contact-lead {
     font-size: 1em;
     margin-top: 1rem;
 }
 
-.survey-wrapper {
+.form-wrapper {
     border: 1px solid rgb(241, 245, 246);
     border-radius: 1rem;
     box-shadow: rgba(28, 47, 58, .2) -2px 3px 13px 0px;
