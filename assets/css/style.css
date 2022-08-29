@@ -222,7 +222,7 @@
 /* ------------------ Footer ------------------ */
 
 .footer-container {
-    background-color:rgb(196, 196, 196);
+    background-color: rgb(196, 196, 196);
     margin-top: 3rem;
     padding: 1rem 0;
 }
@@ -291,9 +291,9 @@
 }
 
 .form-wrapper {
-    border: 1px solid rgb(241, 245, 246);
+    border: 1px solid rgb(235, 235, 235);
     border-radius: 1rem;
-    box-shadow: rgba(28, 47, 58, .2) -2px 3px 13px 0px;
+    box-shadow: rgba(60, 60, 60, .2) -2px 3px 13px 0px;
     margin-top: 1rem;
     padding: 1rem;
 }
