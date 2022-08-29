@@ -21,29 +21,24 @@
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto" id="#navbarNavDropdown">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav" id="#navbarNavDropdown">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html#brands">Brands</a>
+                    <a class="nav-link" href="#brands">Brands</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html#catalog">Catalog</a>
+                    <a class="nav-link" href="#catalog">Catalog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">About Us</a>
+                </li>
             </ul>
-            <div class="d-flex navbar-right-wrapper">
-                <form class="form-inline navbar-search-form" id="search">
-                    <input class="form-control" type="search" placeholder="Search for products" name="search_query" aria-label="Search">
-                    <button class="btn-nav" type="submit" value="search" aria-label="Search"><i class="fa fa-magnifying-glass navbar-icon"></i></button>
-                </form>
-                <button class="btn-nav" aria-label="Shopping bag"><i class="fa fa-bag-shopping navbar-icon"></i></button>
-                <button class="btn-nav" aria-label="My account"><i class="fa fa-user navbar-icon"></i></button>
-            </div>
         </div>
     </nav>
     <main>
@@ -69,8 +64,8 @@
                 <div class="row">
                     <div class="col-12">
                         <!-- Survey form -->
-                        <form class="survey-form" id="survey">
-                            <label for="age-band" class="survey-label">1. Select your age band:</label>
+                        <form class="generic-form" id="survey">
+                            <label for="age-band" class="form-label">1. Select your age band:</label>
                             <select id="age-band" name="age" class="form-control">
                                 <option value="18-24">18-24</option>
                                 <option value="25-34">25-34</option>
@@ -80,8 +75,8 @@
                                 <option value="65-or-over">65 or over</option>
                             </select>
                             <fieldset>
-                                <legend class="survey-label">2. Which of the following skin care products do you use at least
-                                    once a week? (Check all that apply)
+                                <legend class="form-label">2. Which of the following skin care products do you use at least
+                                    once a week?
                                 </legend>
                                 <div class="col-12">
                                     <input id="antiperspirant" value="antiperspirant" name="skin_care_product" type="checkbox">
@@ -101,7 +96,7 @@
                                 </div>
                             </fieldset>
                             <fieldset>
-                                <legend class="survey-label">3. In a typical day, about how many times do you wash your face?
+                                <legend class="form-label">3. In a typical day, about how many times do you wash your face?
                                 </legend>
                                 <div class="col-12">
                                     <input id="none" value="none" name="number_of_face_wash" type="radio">
@@ -120,7 +115,7 @@
                                     <label for="4-or-more">4 or more</label>
                                 </div>
                             </fieldset>
-                            <label for="monthly-budget" class="survey-label">4. In a typical month, about how much do you spend, in Sterling Pounds (£), on beauty products?</label>
+                            <label for="monthly-budget" class="form-label">4. In a typical month, about how much do you spend, in Sterling Pounds (£), on beauty products?</label>
                             <input class="form-control" id="monthly-budget" name="monthly_budget" type="text">
                             <div class="col-12">
                                 <input class="btn btn-secondary-custom" type="reset" value="Reset form">
@@ -147,7 +142,7 @@
                 <ul class="list-unstyled">
                     <li>
                         <h3 class="footer-header">
-                            Information
+                            Beauty Bay
                         </h3>
                         <ul class="list-unstyled">
                             <li class="contact-list-item">
@@ -157,7 +152,10 @@
                                 Address: 232 King's Rd, London SW3 5UA.
                             </li>
                             <li class="contact-list-item">
-                                Working times:
+                                Phone: 024 2013 3769
+                            </li>
+                            <li class="contact-list-item">
+                                Customer service times:
                             </li>
                             <table class="contact-table">
                                 <tr>

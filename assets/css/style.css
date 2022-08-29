@@ -30,6 +30,10 @@
     transition: all .2s ease-in-out;
 }
 
+.navbar  {
+    justify-content: flex-end;
+}
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
     color: rgb(255, 122, 122);
@@ -37,31 +41,6 @@
 
 .navbar-light .navbar-nav .active .nav-link {
     border-bottom: 2px solid rgb(0, 0, 0);
-}
-    
-.navbar-light .navbar-right-wrapper {
-    align-items: center;
-}
-
-.navbar-search-form {
-    flex-wrap: nowrap;
-    width: 100%;
-}
-
-.navbar-icon {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin: auto 0.25rem;
-    padding: 0.5rem;
-    min-width: 32px;
-    background-color: rgb(54, 54, 54);
-    border-radius: 50%;
-    transition: all .2s ease-in-out;
-}
-
-.navbar-icon:hover,
-.navbar-icon:focus {
-    background-color: rgb(255, 122, 122);
 }
 
 
@@ -117,6 +96,7 @@
 
 .featured-content-wrapper {
     margin-bottom: 2rem;
+    max-width: 425px;
 }
 
 
@@ -302,7 +282,7 @@
 
 .footer-social-icon {
     font-size: 1.5em;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     transition: all 0.2s ease-in-out;
 }
 
@@ -348,34 +328,35 @@
     font-size: 0.75em;
 }
 
-.survey-form {
+.generic-form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.survey-label {
+.form-label {
     font-size: 1em;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.generic-form fieldset {
     margin-top: 1.5rem;
     text-align: left;
 }
 
-.survey-form  fieldset {
-    margin-top: 1.5rem;
-    text-align: left;
-}
-
-.survey-form select {
+.generic-form input[type=text],
+.generic-form select {
     width: 50%;
     margin-bottom: 1rem;
 }
 
-.survey-form input[type=text] {
-    width: 50%;
+.generic-form textarea {
     margin-bottom: 1rem;
 }
 
-.survey-form button {
+.generic-form button[type=submit],
+.generic-form input[type=reset] {
     margin: 0.5rem 1rem;
 }
 
@@ -437,6 +418,10 @@
 
 /* ------------------ Block divider, Sections generics & Link ------------------ */
 
+main {
+    min-height: 80vh;
+}
+
 .link {
     color: rgb(0, 0, 0);
 }
@@ -467,8 +452,8 @@
 /* ------------------ Media queries ------------------ */
 
 @media (max-width: 768px) {
-    .form-inline .form-control {
-        width: 100%;
+    .featured-products-wrapper {
+        justify-content: center;
     }
 }
 
@@ -487,12 +472,19 @@
         margin-bottom: 2rem;
     }
 
-    .fav-icon {
-        font-size: 1.5em;
+    .footer-input {
+        width: 60vw;
     }
 
-    .footer-social-icon {
-        margin: 0 0.5rem;
+    .generic-form input[type=text],
+    .generic-form select {
+        width: 100%;
+    }
+
+    .generic-form button[type=submit],
+    .generic-form input[type=reset] {
+        width: 100%;
+        margin: 0.5rem auto;
     }
 
     .product-card img {
