@@ -71,6 +71,10 @@
     font-size: 4.5em;
 }
 
+.hero-content a {
+    margin-bottom: 2rem;
+}
+
 
 /* ------------------ Featured products section ------------------ */
 
