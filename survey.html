@@ -64,9 +64,10 @@
                 <div class="row">
                     <div class="col-12">
                         <!-- Survey form -->
-                        <form class="generic-form" id="survey">
+                        <form class="generic-form" id="survey" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
                             <label for="age-band" class="form-label">1. Select your age band:</label>
-                            <select id="age-band" name="age" class="form-control">
+                            <select id="age-band" name="age" class="form-control" required>
+                                <option selected disabled value>Select an option</option>
                                 <option value="18-24">18-24</option>
                                 <option value="25-34">25-34</option>
                                 <option value="35-44">35-44</option>
@@ -79,7 +80,7 @@
                                     once a week?
                                 </legend>
                                 <div class="col-12">
-                                    <input id="antiperspirant" value="antiperspirant" name="skin_care_product" type="checkbox">
+                                    <input id="antiperspirant" value="antiperspirant" name="skin_care_product" type="checkbox" required>
                                     <label for="antiperspirant">Antiperspirant</label>
                                 </div>
                                 <div class="col-12">
@@ -99,7 +100,7 @@
                                 <legend class="form-label">3. In a typical day, about how many times do you wash your face?
                                 </legend>
                                 <div class="col-12">
-                                    <input id="none" value="none" name="number_of_face_wash" type="radio">
+                                    <input id="none" value="none" name="number_of_face_wash" type="radio" required>
                                     <label for="none">None</label>
                                 </div>
                                 <div class="col-12">
@@ -116,7 +117,7 @@
                                 </div>
                             </fieldset>
                             <label for="monthly-budget" class="form-label">4. In a typical month, about how much do you spend, in Sterling Pounds (£), on beauty products?</label>
-                            <input class="form-control" id="monthly-budget" name="monthly_budget" type="text">
+                            <input class="form-control" id="monthly-budget" name="monthly_budget" type="text" required>
                             <div class="col-12">
                                 <input class="btn btn-secondary-custom" type="reset" value="Reset form">
                                 <button class="btn btn-secondary-custom" type="submit" value="submit">Submit</button>
