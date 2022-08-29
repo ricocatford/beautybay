@@ -1,14 +1,14 @@
 # BeautyBay
 
-![Final product overview](assets/images/screenshots/screenshot1.jpg)
+![Final product overview](assets/images/screenshots/preview.jpg)
 
 ## Description
 
-BeautyBay is an online shop website for makeup, cosmetic and beauty products. Featuring a wide range of products for your skin, hair and body with a very intuitive and carefully planned User Interface. I built this website based on several popular online shops of this field with things I would improve on those sites:
+BeautyBay is an online shop website for makeup, cosmetic and beauty products. Featuring a wide range of products for your skin, hair and body with a very intuitive and carefully planned User Interface. I built this website based on several popular online shops of this field with things I would improve on those sites such as:
 
 - Complete responsive design for all devices.
 - Less clustered, products are more spaced out.
-- Made it a little bit more colourful and vivid.
+- Made it more colourful and vivid.
 
 ## Languages, Frameworks and Libraries
 
