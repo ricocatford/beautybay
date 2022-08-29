@@ -220,23 +220,12 @@
 .footer-container {
     background-color:rgb(196, 196, 196);
     margin-top: 3rem;
+    padding: 1rem 0;
 }
 
 .footer-wrapper {
     max-width: 1180px;
     margin: 2rem auto 0;
-}
-
-.footer-form {
-    display: flex;
-    align-items: center;
-    margin: 1rem auto 0;
-    width: fit-content;
-}
-
-.footer-input {
-    margin-right: 0.5rem;
-    width: 40vw;
 }
 
 .footer-header {
@@ -451,10 +440,6 @@ main {
     .hero-container .btn-outline-custom {
         width: 100%;
         margin-bottom: 2rem;
-    }
-
-    .footer-input {
-        width: 60vw;
     }
 
     .generic-form input[type=text],
