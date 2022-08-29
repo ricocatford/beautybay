@@ -10,11 +10,6 @@
     max-width: 1180px;
 }
 
-.google-map-iframe {
-    max-width: 100%;
-    height: 100%;
-}
-
 /* ------------------ Navbar ------------------ */
 
 .navbar-toggler {
