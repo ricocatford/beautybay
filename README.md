@@ -1,6 +1,6 @@
 # BeautyBay
 
-![Final product overview](assets/images/screenshots/preview.jpg)
+![Final product overview](assets/images/readme/preview.jpg)
 
 ## Description
 
