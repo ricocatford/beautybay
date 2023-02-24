@@ -12,7 +12,7 @@ BeautyBay is an online shop website for makeup, cosmetic and beauty products. Fe
 
 ## Live Project
 
-You can find it hosted [here](https://ricocatford.github.io/milestone-project1).
+You can find it hosted [here](https://ricocatford.github.io/beautybay).
 
 ## User stories
 
